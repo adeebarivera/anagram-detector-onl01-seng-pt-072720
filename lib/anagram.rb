@@ -1,9 +1,7 @@
 class Anagram
    attr_accessor :name 
   
-  def meow
-    puts "meow!"
+  def initialize(word)
+    @name = word 
   end
-  
-end
 
